@@ -28,14 +28,15 @@ button {
   background-color: #ffea97;
   color: #5437b7;
   border: 2px solid black;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
+  /* Hace que los botones sean completamente redondos */
   margin: 0 0.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
-  background-color: #ffd700;
+  background-color: #283838;
   color: #fff;
 }
 
