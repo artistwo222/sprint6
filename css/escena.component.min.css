@@ -1,0 +1,24 @@
+.parrafo {
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  text-align: center
+}
+
+.botonesDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+button {
+  width: 50vw;
+  height: 4rem;
+  font-size: large
+}
+
+.selected {
+  background-color: #ff8c8c
+}
+
+/*# sourceMappingURL=escena.component.min.css.map */

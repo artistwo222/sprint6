@@ -1,0 +1,10 @@
+<div class="fondoEscena" [style.backgroundImage]="'url(' + data[selected].img + ')'">
+  <div class="botonesDiv">
+    <button (click)="prev()">ANTERIOR</button>
+    <button (click)="next()">SIGUIENTE</button>
+  </div>
+  <div>
+    <p class="parrafo" [ngClass]="{'selected': i === selected}" *ngFor="let frase of data; index as i"
+      [hidden]="i !== selected">{{frase.txt}}</p>
+  </div>
+</div>
